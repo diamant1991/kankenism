@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="50px" viewBox="0 0 30 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>2DF44E10-B573-4A73-8490-594E700FCA04</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <polygon id="path-1" points="0 49.1334839 28.6473226 49.1334839 28.6473226 0 0 0"></polygon>
+    </defs>
+    <g id="Screens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="3-Grid" transform="translate(-370.000000, -15.000000)">
+            <g id="Kanken2-Ico-B" transform="translate(371.000000, 15.000000)">
+                <path d="M25.3908097,48.8530258 L3.23480968,48.8530258 C1.60332581,48.8530258 0.280551613,47.5302516 0.280551613,45.8987677 L0.280551613,16.4516065 C0.280551613,13.3785419 2.77174516,10.8882839 5.84387419,10.8882839 L22.7817452,10.8882839 C25.8548097,10.8882839 28.3450677,13.3785419 28.3450677,16.4516065 L28.3450677,45.8987677 C28.3450677,47.5302516 27.0222935,48.8530258 25.3908097,48.8530258 Z" id="Stroke-1" stroke="#000000" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="bevel"></path>
+                <path d="M0.28073871,17.0351613 C0.28073871,12.8339032 4.73364194,9.42780645 10.2268032,9.42780645 L18.3982548,9.42780645 C23.8923516,9.42780645 28.3452548,12.8339032 28.3452548,17.0351613" id="Stroke-3" stroke="#000000" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="bevel"></path>
+                <path d="M23.5198419,44.508171 L5.10577742,44.508171 C3.47429355,44.508171 2.15151935,43.1853968 2.15151935,41.5539129 L2.15151935,30.6237194 C2.15151935,28.9922355 3.47429355,27.6694613 5.10577742,27.6694613 L23.5198419,27.6694613 C25.1513258,27.6694613 26.4741,28.9922355 26.4741,30.6237194 L26.4741,41.5539129 C26.4741,43.1853968 25.1513258,44.508171 23.5198419,44.508171 Z" id="Stroke-5" stroke="#000000" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="bevel"></path>
+                <path d="M2.15170645,33.322029 C2.15170645,33.322029 3.08719032,34.2575129 4.95815806,34.2575129 L22.7323516,34.2575129 C24.6033194,34.2575129 26.4742871,33.322029 26.4742871,33.322029" id="Stroke-7" stroke="#000000" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="bevel"></path>
+                <path d="M17.1194484,18.3146226 C17.1194484,19.8647194 15.8630935,21.1210742 14.3129968,21.1210742 C12.7629,21.1210742 11.5065452,19.8647194 11.5065452,18.3146226 C11.5065452,16.7645258 12.7629,15.508171 14.3129968,15.508171 C15.8630935,15.508171 17.1194484,16.7645258 17.1194484,18.3146226 Z" id="Stroke-9" stroke="#000000" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="bevel"></path>
+                <polygon id="Stroke-11" stroke="#000000" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="bevel" points="19.9259 15.508171 20.8613839 13.6372032 21.7968677 13.6372032 22.7323516 15.508171 22.7323516 24.8630097 19.9259 24.8630097"></polygon>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-14"></g>
+                <polygon id="Stroke-13" stroke="#000000" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="bevel" mask="url(#mask-2)" points="26.4966452 46.4046774 28.3666774 46.4046774 28.3666774 40.1640645 26.4966452 40.1640645"></polygon>
+                <polygon id="Stroke-15" stroke="#000000" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="bevel" mask="url(#mask-2)" points="0.288129032 46.4046774 2.15816129 46.4046774 2.15816129 40.1640645 0.288129032 40.1640645"></polygon>
+                <path d="M20.3936419,15.508171 L22.2646097,15.508171" id="Stroke-16" stroke="#000000" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="bevel" mask="url(#mask-2)"></path>
+                <polygon id="Stroke-17" stroke="#000000" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="bevel" mask="url(#mask-2)" points="5.89364194 15.508171 6.82912581 13.6372032 7.76460968 13.6372032 8.70009355 15.508171 8.70009355 24.8630097 5.89364194 24.8630097"></polygon>
+                <path d="M6.36138387,15.508171 L8.23235161,15.508171" id="Stroke-18" stroke="#000000" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="bevel" mask="url(#mask-2)"></path>
+                <polygon id="Stroke-19" stroke="#000000" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="bevel" mask="url(#mask-2)" points="4.95806452 36.5811613 6.78974194 36.5811613 6.78974194 34.2574194 4.95806452 34.2574194"></polygon>
+                <path d="M7.29780323,9.06025484 C7.29780323,6.25380323 6.45399677,2.51186774 14.3139323,2.51186774 C22.1748032,2.51186774 21.3300613,7.1892871 21.3300613,9.06025484" id="Stroke-20" stroke="#000000" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="bevel" mask="url(#mask-2)"></path>
+                <path d="M7.29780323,8.12477097 C7.29780323,7.9722871 7.29593226,7.81699677 7.29219032,7.6589" id="Stroke-21" stroke="#000000" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="bevel" mask="url(#mask-2)"></path>
+                <path d="M7.27217097,6.70872903 C7.25252581,4.20537419 7.72494516,1.57666452 14.3135581,1.57666452 C21.0602677,1.57666452 21.395171,5.02205161 21.3540097,7.18114839" id="Stroke-22" stroke="#000000" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="bevel" stroke-dasharray="1.02,1.02" mask="url(#mask-2)"></path>
+                <path d="M21.3405387,7.66067742 C21.3349258,7.82906452 21.3302484,7.98529032 21.3302484,8.12467742" id="Stroke-23" stroke="#000000" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="bevel" mask="url(#mask-2)"></path>
+                <path d="M7.32699032,13.2699323 L7.32699032,9.06025484 C7.32699032,5.9712871 6.45324839,0.467835484 14.3141194,0.467835484 C22.1749903,0.467835484 21.3302484,6.63548065 21.3302484,9.06025484 L21.3302484,13.2699323" id="Stroke-24" stroke="#000000" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="bevel" mask="url(#mask-2)"></path>
+                <path d="M7.61109677,4.73953548 C7.61109677,4.73953548 7.52222581,0.468116129 14.3138387,0.468116129 C21.1063871,0.468116129 21.1690645,5.28492258 21.1690645,5.28492258 C21.1690645,5.28492258 19.6180323,2.26705161 14.3587419,2.26705161 C9.09851613,2.26705161 7.61109677,4.73953548 7.61109677,4.73953548 Z" id="Stroke-25" stroke="#000000" mask="url(#mask-2)"></path>
+                <path d="M21.2651387,16.5290645 L21.2651387,23.7977742" id="Stroke-26" stroke="#000000" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="bevel" stroke-dasharray="1,1" mask="url(#mask-2)"></path>
+                <path d="M27.4614097,41.0772839 L27.4614097,45.4834129" id="Stroke-27" stroke="#000000" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="bevel" stroke-dasharray="1,1" mask="url(#mask-2)"></path>
+                <path d="M1.24821613,41.0772839 L1.24821613,45.4834129" id="Stroke-28" stroke="#000000" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="bevel" stroke-dasharray="1,1" mask="url(#mask-2)"></path>
+                <path d="M7.28957097,16.5290645 L7.28957097,23.7977742" id="Stroke-29" stroke="#000000" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="bevel" stroke-dasharray="1,1" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

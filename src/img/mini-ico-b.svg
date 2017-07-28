@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="38px" viewBox="0 0 25 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>7B5A1527-CF15-444F-BF2F-6B193EFEDA7E</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <polygon id="path-1" points="0 36.8346462 23.6316923 36.8346462 23.6316923 0.000184615385 0 0.000184615385"></polygon>
+    </defs>
+    <g id="Screens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="3-Grid" transform="translate(-803.000000, -22.000000)">
+            <g id="Mini-Ico-B" transform="translate(804.000000, 23.000000)">
+                <path d="M20.4394154,36.5579077 L3.19172308,36.5579077 C1.58187692,36.5579077 0.276646154,35.2526769 0.276646154,33.6428308 L0.276646154,14.1354462 C0.276646154,11.1040615 2.7348,8.64590769 5.76618462,8.64590769 L17.8649538,8.64590769 C20.8972615,8.64590769 23.3544923,11.1040615 23.3544923,14.1354462 L23.3544923,33.6428308 C23.3544923,35.2526769 22.0492615,36.5579077 20.4394154,36.5579077 Z" id="Stroke-1" stroke="#000000" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="bevel"></path>
+                <path d="M0.276923077,13.5985846 C0.276923077,10.1435077 3.93876923,7.34289231 8.45630769,7.34289231 L15.1753846,7.34289231 C19.6929231,7.34289231 23.3547692,10.1435077 23.3547692,13.5985846" id="Stroke-3" stroke="#000000" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="bevel"></path>
+                <path d="M19.3870154,34.344 L4.24486154,34.344 C2.90363077,34.344 1.81532308,33.2556923 1.81532308,31.9144615 L1.81532308,22.9264615 C1.81532308,21.5852308 2.90363077,20.4969231 4.24486154,20.4969231 L19.3870154,20.4969231 C20.7282462,20.4969231 21.8165538,21.5852308 21.8165538,22.9264615 L21.8165538,31.9144615 C21.8165538,33.2556923 20.7282462,34.344 19.3870154,34.344 Z" id="Stroke-5" stroke="#000000" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="bevel"></path>
+                <path d="M1.8156,25.1451692 C1.8156,25.1451692 2.58452308,25.9140923 4.12329231,25.9140923 L18.7392923,25.9140923 C20.2780615,25.9140923 21.8159077,25.1451692 21.8159077,25.1451692" id="Stroke-7" stroke="#000000" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="bevel"></path>
+                <path d="M14.1234462,14.6506154 C14.1234462,15.9253846 13.0905231,16.9583077 11.8157538,16.9583077 C10.5409846,16.9583077 9.50806154,15.9253846 9.50806154,14.6506154 C9.50806154,13.3758462 10.5409846,12.3429231 11.8157538,12.3429231 C13.0905231,12.3429231 14.1234462,13.3758462 14.1234462,14.6506154 Z" id="Stroke-9" stroke="#000000" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="bevel"></path>
+                <polygon id="Stroke-11" stroke="#000000" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="bevel" points="16.4312308 12.3429231 17.2001538 10.8041538 17.97 10.8041538 18.7389231 12.3429231 18.7389231 18.1887692 16.4312308 18.1887692"></polygon>
+                <path d="M6.04652308,7.34261538 C6.04652308,5.03492308 5.35236923,1.95830769 11.8157538,1.95830769 C18.2791385,1.95830769 17.5859077,5.80384615 17.5859077,7.34261538" id="Stroke-13" stroke="#000000" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="bevel"></path>
+                <path d="M6.06996923,10.8041538 L6.06996923,7.34261538 C6.06996923,4.80323077 5.35181538,0.277384615 11.8161231,0.277384615 C18.2795077,0.277384615 17.5853538,5.34784615 17.5853538,7.34261538 L17.5853538,10.8041538" id="Stroke-15" stroke="#000000" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="bevel"></path>
+                <path d="M16.8161538,12.3429231 L18.3549231,12.3429231" id="Stroke-17" stroke="#000000" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="bevel"></path>
+                <polygon id="Stroke-19" stroke="#000000" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="bevel" points="4.89230769 12.3429231 5.66123077 10.8041538 6.43107692 10.8041538 7.2 12.3429231 7.2 18.1887692 4.89230769 18.1887692"></polygon>
+                <path d="M5.27713846,12.3429231 L6.81590769,12.3429231" id="Stroke-21" stroke="#000000" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="bevel"></path>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-24"></g>
+                <polygon id="Stroke-23" stroke="#000000" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="bevel" mask="url(#mask-2)" points="4.12338462 27.8254154 5.62892308 27.8254154 5.62892308 25.9146462 4.12338462 25.9146462"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

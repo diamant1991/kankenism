@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Cart</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/media.css">
+  <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>a
+  <![endif]-->
+</head>
+<body>
+  <div class="wrapper wrapper--inner wrapper--grey">
+    //= template/header.html
+    <div class="content">
+      <div class="container">
+        <div class="page-title">
+          <h4>Корзина</h4>
+        </div>
+        <div class="cart clearfix">
+          <div class="pull-left">
+            <a href="#" class="back-link">
+              <i class="fa fa-angle-left middle" aria-hidden="true"></i>
+              <span class="middle">Вернуться к покупкам</span>
+            </a>
+          </div>
+          <div class="cart__content pull-right">
+            <div class="cart__item flex">
+              <div class="cart__img">
+                <img src="http://via.placeholder.com/115x175" alt="">
+              </div>
+              <div class="cart__info">
+                <div class="cart__header clearfix">
+                  <div class="cart__name pull-left">
+                    Re-Kånken
+                  </div>
+                  <div class="pull-right">
+                    <a href="#" class="cart__delete">
+                      <i class="fa fa-times" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="cart__body">
+                  <table>
+                    <thead class="hidden-xs">
+                      <tr>
+                        <td>Цвет</td>
+                        <td>Количество</td>
+                        <td>Цена</td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <div class="cart__mobile-title visible-xs">Цвет</div>
+                          <div class="cart__color">041 — Red</div>
+                        </td>
+                        <td>
+                          <div class="cart__mobile-title visible-xs">Количество</div>
+                          <div class="count clearfix">
+                            <a href="#" class="count__btn count__btn--left">-</a>
+                            <input type="text" class="count__field" value="1">
+                            <a href="#" class="count__btn count__btn--right">+</a>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="cart__mobile-title visible-xs">Цена</div>
+                          <div class="cart__price">
+                            2 990
+                            <i class="fa fa-rub" aria-hidden="true"></i>
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="cart__item flex">
+              <div class="cart__img">
+                <img src="http://via.placeholder.com/115x175" alt="">
+              </div>
+              <div class="cart__info">
+                <div class="cart__header clearfix">
+                  <div class="cart__name pull-left">
+                    Re-Kånken
+                  </div>
+                  <div class="pull-right">
+                    <a href="#" class="cart__delete">
+                      <i class="fa fa-times" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="cart__body">
+                  <table>
+                    <thead class="hidden-xs">
+                      <tr>
+                        <td>Цвет</td>
+                        <td>Количество</td>
+                        <td>Цена</td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <div class="cart__mobile-title clearfix">Цвет</div>
+                          <div class="cart__color">041 — Red</div>
+                        </td>
+                        <td>
+                          <div class="cart__mobile-title clearfix">Количества</div>
+                          <div class="count clearfix">
+                            <a href="#" class="count__btn count__btn--left">-</a>
+                            <input type="text" class="count__field" value="1">
+                            <a href="#" class="count__btn count__btn--right">+</a>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="cart__mobile-title clearfix">Цена</div>
+                          <div class="cart__price">
+                            2 990
+                            <i class="fa fa-rub" aria-hidden="true"></i>
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="cart__footer clearfix">
+              <div class="col-sm-6">
+                <div class="row cart__footer__block">
+                  <div class="cart__footer__item">
+                    <input type="text" placeholder="Дисконтная карта" class="cart__footer__field">
+                    <button type="button" class="cart__footer__btn">
+                      <i class="fa fa-angle-right" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                  <div class="cart__footer__item">
+                    <input type="text" placeholder="Промокод" class="cart__footer__field">
+                    <button type="button" class="cart__footer__btn">
+                      <i class="fa fa-angle-right" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="row cart__footer__block">
+                  <div class="cart__footer__item clearfix">
+                    <div class="pull-left cart__footer__title">
+                      Скидка: 
+                    </div>
+                    <div class="pull-right cart__footer__price">
+                      <span class="middle">0</span>
+                      <i class="fa fa-rub" aria-hidden="true"></i>
+                    </div>
+                  </div>
+                  <div class="cart__footer__item clearfix">
+                    <div class="pull-left cart__footer__title">
+                      К оплате: 
+                    </div>
+                    <div class="pull-right cart__footer__price">
+                      <span class="middle">8 270</span>
+                      <i class="fa fa-rub" aria-hidden="true"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="cart__footer__submit">
+              <a href="#" class="order-link">
+                <span class="middle">
+                  Оформить заказ
+                </span>
+                <i class="fa fa-angle-right middle"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    //= template/footer.html
+  </div>
+
+
+  <script src="js/vendor.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
