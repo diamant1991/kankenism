@@ -326,6 +326,26 @@ a {
   src: url("../fonts/SFUIDisplayMedium.eot");
   src: url("../fonts/SFUIDisplayMedium.eot") format("embedded-opentype"), url("../fonts/SFUIDisplayMedium.woff2") format("woff2"), url("../fonts/SFUIDisplayMedium.woff") format("woff"), url("../fonts/SFUIDisplayMedium.ttf") format("truetype"), url("../fonts/SFUIDisplayMedium.svg#SFUIDisplayMedium") format("svg"); }
 
+@font-face {
+  font-family: 'RobotoBold';
+  src: url("../fonts/RobotoBold/RobotoBold.eot");
+  src: url("../fonts/RobotoBold/RobotoBold.eot") format("embedded-opentype"), url("../fonts/RobotoBold/RobotoBold.woff2") format("woff2"), url("../fonts/RobotoBold/RobotoBold.woff") format("woff"), url("../fonts/RobotoBold/RobotoBold.ttf") format("truetype"), url("../fonts/RobotoBold/RobotoBold.svg#RobotoBold") format("svg"); }
+
+@font-face {
+  font-family: 'RobotoRegular';
+  src: url("../fonts/RobotoRegular/RobotoRegular.eot");
+  src: url("../fonts/RobotoRegular/RobotoRegular.eot") format("embedded-opentype"), url("../fonts/RobotoRegular/RobotoRegular.woff2") format("woff2"), url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"), url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype"), url("../fonts/RobotoRegular/RobotoRegular.svg#RobotoRegular") format("svg"); }
+
+@font-face {
+  font-family: 'RobotoLight';
+  src: url("../fonts/RobotoLight/RobotoLight.eot");
+  src: url("../fonts/RobotoLight/RobotoLight.eot") format("embedded-opentype"), url("../fonts/RobotoLight/RobotoLight.woff2") format("woff2"), url("../fonts/RobotoLight/RobotoLight.woff") format("woff"), url("../fonts/RobotoLight/RobotoLight.ttf") format("truetype"), url("../fonts/RobotoLight/RobotoLight.svg#RobotoLight") format("svg"); }
+
+@font-face {
+  font-family: 'RobotoMedium';
+  src: url("../fonts/RobotoMedium/RobotoMedium.eot");
+  src: url("../fonts/RobotoMedium/RobotoMedium.eot") format("embedded-opentype"), url("../fonts/RobotoMedium/RobotoMedium.woff2") format("woff2"), url("../fonts/RobotoMedium/RobotoMedium.woff") format("woff"), url("../fonts/RobotoMedium/RobotoMedium.ttf") format("truetype"), url("../fonts/RobotoMedium/RobotoMedium.svg#RobotoMedium") format("svg"); }
+
 .bx-wrapper {
   position: relative;
   margin: 0 auto;
@@ -1315,6 +1335,21 @@ p {
     .btn-white:hover {
       background: #fff;
       color: #000; }
+  .btn-black {
+    border: 1px solid #000;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    color: #000; }
+    .btn-black:hover {
+      background: #000;
+      color: #fff; }
+  .btn-small {
+    min-width: inherit;
+    font-size: 12px;
+    font-family: "ComfortaaBold";
+    padding: 10px 15px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px; }
 
 .mouse-btn {
   width: 26px;
@@ -1350,7 +1385,7 @@ p {
     .banner__text--small p {
       font-size: 20px;
       line-height: 1.3;
-      font-family: "smSFNSDisplayThin"; }
+      font-family: "RobotoLight"; }
   .banner__img {
     height: -webkit-calc(100vh - 151px);
     height: calc(100vh - 151px); }
@@ -1359,7 +1394,7 @@ p {
 
 .photo__text {
   font-size: 14px;
-  font-family: "smSFNSDisplayRegular"; }
+  font-family: "RobotoRegular"; }
 
 .photo__header {
   margin-bottom: 20px; }
@@ -1407,12 +1442,12 @@ img {
     line-height: 1.64;
     letter-spacing: 0.6px;
     color: #ffffff;
-    font-family: "smSFNSDisplayRegular";
+    font-family: "RobotoRegular";
     text-transform: uppercase; }
 
 .footer {
   color: #fff;
-  font-family: "smSFNSDisplayRegular"; }
+  font-family: "RobotoRegular"; }
   .footer__search {
     position: relative;
     width: 540px; }
@@ -1426,7 +1461,7 @@ img {
       color: #fff;
       font-weight: normal;
       padding: 10px 0;
-      font-family: "smSFNSDisplayRegular";
+      font-family: "RobotoRegular";
       font-size: 14px; }
       .footer__search__input::-webkit-input-placeholder {
         color: #fff; }
@@ -1586,7 +1621,7 @@ img {
   font-size: 20px;
   line-height: 1.4;
   letter-spacing: 0.2px;
-  font-family: "smSFNSDisplayThin"; }
+  font-family: "RobotoLight"; }
 
 .product__list__img {
   height: 330px;
@@ -1608,21 +1643,21 @@ img {
   font-size: 14px;
   line-height: 1.57;
   letter-spacing: 0.4px;
-  font-family: "smSFNSDisplayRegular";
+  font-family: "RobotoRegular";
   overflow: hidden; }
 
 .product__list__color {
   font-size: 14px;
   line-height: 1.57;
   letter-spacing: 0.4px;
-  font-family: "smSFNSDisplayRegular"; }
+  font-family: "RobotoRegular"; }
 
 .product__list__price {
   text-align: right; }
 
 .today-price {
   font-size: 18px;
-  font-family: "smSFNSDisplayRegular";
+  font-family: "RobotoRegular";
   line-height: 1.22;
   letter-spacing: 0.4px; }
   .today-price .fa-rub {
@@ -1630,7 +1665,7 @@ img {
 
 .prev-price {
   text-decoration: line-through;
-  font-family: "smSFNSDisplayRegular";
+  font-family: "RobotoRegular";
   font-size: 14px;
   line-height: 1.57;
   letter-spacing: 0.4px;
@@ -1720,7 +1755,7 @@ img {
 
 .nav-tabs {
   font-size: 12px;
-  font-family: "smSFNSDisplayRegular";
+  font-family: "RobotoRegular";
   text-transform: uppercase;
   margin-bottom: 20px; }
   .nav-tabs > li {
@@ -1737,7 +1772,7 @@ img {
 
 .tab-pane {
   font-size: 18px;
-  font-family: "smSFNSDisplayThin";
+  font-family: "RobotoLight";
   line-height: 1.44;
   letter-spacing: 0.8px;
   color: #ffffff; }
@@ -1796,7 +1831,7 @@ img {
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.5px;
-  font-family: "smSFNSDisplayRegular"; }
+  font-family: "RobotoRegular"; }
   .back-link i {
     font-size: 20px;
     margin-right: 5px; }
@@ -1818,17 +1853,17 @@ img {
   .cart__body thead {
     font-size: 12px;
     opacity: 0.5;
-    font-family: "smSFNSDisplayRegular"; }
+    font-family: "RobotoRegular"; }
     .cart__body thead td {
       padding-bottom: 20px; }
   .cart__color {
     font-size: 16px;
     line-height: 1.5;
-    font-family: "smSFNSDisplayRegular"; }
+    font-family: "RobotoRegular"; }
   .cart__price {
     font-size: 16px;
     line-height: 1.5;
-    font-family: "smSFNSDisplayRegular"; }
+    font-family: "RobotoRegular"; }
     .cart__price i {
       font-size: 13px; }
   .cart__img {
@@ -1861,7 +1896,7 @@ img {
       margin-bottom: 30px;
       position: relative;
       border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-      font-family: "smSFNSDisplayRegular";
+      font-family: "RobotoRegular";
       font-size: 16px;
       color: #000;
       padding-bottom: 7px;
@@ -1874,7 +1909,7 @@ img {
       background: none;
       border: 0;
       outline: 0;
-      font-family: "smSFNSDisplayRegular";
+      font-family: "RobotoRegular";
       font-size: 16px; }
       .cart__footer__field::-webkit-input-placeholder {
         color: #000; }
@@ -1930,7 +1965,7 @@ img {
   line-height: 38px;
   background: transparent;
   text-align: center;
-  font-family: "smSFNSDisplayRegular";
+  font-family: "RobotoRegular";
   font-size: 16px;
   color: #000; }
   .count__btn--left {
@@ -1950,7 +1985,7 @@ img {
   background: transparent;
   border: 1px solid #000;
   text-align: center;
-  font-family: "smSFNSDisplayRegular";
+  font-family: "RobotoRegular";
   font-size: 16px;
   color: #000; }
 
@@ -1978,7 +2013,7 @@ img {
       padding: 10px 0;
       border-bottom: 1px solid rgba(0, 0, 0, 0.1);
       font-size: 16px;
-      font-family: "smSFNSDisplayRegular"; }
+      font-family: "RobotoRegular"; }
       .order__table td:first-child {
         width: 20%;
         text-align: center; }
@@ -1995,7 +2030,7 @@ img {
       padding-bottom: 10px;
       margin-bottom: 25px;
       font-size: 14px;
-      font-family: "smSFNSDisplayRegular"; }
+      font-family: "RobotoRegular"; }
 
 .form-control {
   display: block;
@@ -2006,7 +2041,7 @@ img {
   background: none;
   padding-bottom: 5px;
   font-size: 16px;
-  font-family: "smSFNSDisplayRegular"; }
+  font-family: "RobotoRegular"; }
   .form-control::-webkit-input-placeholder {
     color: #000; }
   .form-control::-moz-placeholder {
@@ -2015,18 +2050,24 @@ img {
     color: #000; }
   .form-control:-ms-input-placeholder {
     color: #000; }
+  .form-control--small {
+    font-size: 14px; }
 
 .form-group {
   margin-bottom: 45px; }
+  .form-group--login {
+    margin-bottom: 0; }
+    .form-group--login + .form-group--login {
+      margin-top: 20px; }
 
 .radios {
   position: relative;
   padding-left: 30px;
-  font-family: "smSFNSDisplayRegular";
+  font-family: "RobotoRegular";
   font-size: 16px; }
   .radios__input {
     margin-bottom: 15px;
-    font-family: "SFUIDisplayMedium"; }
+    font-family: "RobotoMedium"; }
   .radios__item {
     margin-bottom: 30px; }
   .radios__status {
@@ -2093,8 +2134,11 @@ img {
 .checkbox:not(checked) + label {
   position: relative;
   padding: 0 0 0 25px;
-  font-family: "smSFNSDisplayRegular";
+  font-family: "RobotoRegular";
   font-size: 14px; }
+
+.checkbox--small:not(checked) + label {
+  font-size: 13px; }
 
 .checkbox:not(checked) + label:before {
   content: '';
@@ -2113,7 +2157,7 @@ img {
 
 .questions {
   font-size: 16px;
-  font-family: "smSFNSDisplayRegular";
+  font-family: "RobotoRegular";
   padding-bottom: 50px; }
   .questions__body {
     font-size: 14px;
@@ -2140,6 +2184,64 @@ img {
 
 .contacts__info {
   font-size: 16px;
-  font-family: "smSFNSDisplayRegular";
+  font-family: "RobotoRegular";
   line-height: 1.6;
   margin-bottom: 60px; }
+
+.return {
+  padding-top: 40px;
+  padding-bottom: 100px; }
+  .return__header {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.27;
+    color: #000000;
+    font-family: "RobotoLight";
+    margin-bottom: 50px; }
+  .return__content {
+    font-size: 16px;
+    font-family: "RobotoRegular";
+    line-height: 1.25;
+    margin-left: -40px; }
+    .return__content__item {
+      padding-left: 40px; }
+
+.login {
+  margin-left: 12px;
+  position: relative; }
+
+.login-dropdown {
+  position: absolute;
+  z-index: 5;
+  right: -10px;
+  top: 150%;
+  background: #fff;
+  width: 300px;
+  color: #000;
+  display: none; }
+  .login-dropdown__title {
+    font-size: 12px;
+    font-family: "ComfortaaBold";
+    line-height: 1.5; }
+    .login-dropdown__title a {
+      color: #000; }
+      .login-dropdown__title a:hover {
+        text-decoration: underline; }
+  .login-dropdown__left {
+    text-align: left; }
+  .login-dropdown__right {
+    text-align: right; }
+  .login-dropdown__social {
+    font-size: 20px; }
+    .login-dropdown__social a {
+      color: #000; }
+      .login-dropdown__social a + a {
+        margin-left: 20px; }
+  .login-dropdown__header {
+    padding: 25px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+  .login-dropdown__form {
+    padding: 25px; }
+  .login-dropdown__footer {
+    padding: 25px;
+    padding-top: 0; }

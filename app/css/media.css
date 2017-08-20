@@ -24,6 +24,14 @@
     width: 140px; } }
 
 @media (max-width: 991px) {
+  .return {
+    padding-top: 0;
+    padding-bottom: 50px;
+    text-align: justify; }
+    .return__header {
+      margin-bottom: 30px; }
+    .return__content__item {
+      margin-bottom: 20px; }
   .cart__content {
     width: 100%;
     margin-top: 35px; }
@@ -115,6 +123,10 @@
     padding-left: 15px;
     padding-right: 15px;
     min-height: 50px; }
+  .register-form {
+    margin-top: 30px; }
+  .return__header {
+    font-size: 18px; }
   .cart__body table,
   .cart__body tbody,
   .cart__body tr,
@@ -126,7 +138,7 @@
     margin-bottom: 20px; }
   .cart__mobile-title {
     font-size: 22px;
-    font-family: "smSFNSDisplayRegular";
+    font-family: "RobotoRegular";
     margin-bottom: 10px; }
   .cart__color {
     font-size: 22px; }

@@ -37,6 +37,20 @@
 	}
 }
 @media(max-width: 991px){
+	.return{
+		padding-top: 0;
+		padding-bottom: 50px;
+		text-align: justify;
+
+		&__header{
+			margin-bottom: 30px;
+		}
+		&__content{
+			&__item{
+				margin-bottom: 20px;
+			}
+		}
+	}
 	.cart__content{
 		width: 100%;
 		margin-top: 35px;
@@ -161,7 +175,12 @@
     padding-right: 15px;
     min-height: 50px;
 	}
-	
+	.register-form{
+		margin-top: 30px;
+	}
+	.return__header{
+		font-size: 18px;
+	}
 	.cart__body{
 		table,
 		tbody,

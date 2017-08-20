@@ -36,6 +36,18 @@ $('.burger').click(function(e) {
   }
 });
 
+$('.login-btn').click(function(e) {
+  e.preventDefault();
+  $('.login-dropdown').show()
+});
+
+$(document).mouseup(function (e) {
+  var container = $('.login-dropdown');
+  if (container.has(e.target).length === 0){
+    container.hide();
+  }
+});
+
 $('.profile__btn--search').click(function(e) {
   e.preventDefault();
   $(this).addClass('hidden-item')

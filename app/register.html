@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Item a</title>
+  <title>Register</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -14,7 +14,7 @@
   <![endif]-->
 </head>
 <body>
-  <div class="wrapper wrapper--inner">
+  <div class="wrapper wrapper--inner wrapper--grey">
     <div class="fixed-panel">
       <div class="top-panel hidden-sm">
         <div class="container">
@@ -333,62 +333,76 @@
     </div>
     <div class="content">
       <div class="container">
-        <div class="card clearfix">
-          <div class="col-md-7 col-sm-5">
-            <div class="row card__img">
-              <img src="http://via.placeholder.com/365x545" alt="">
-            </div>
-          </div>
-          <div class="col-md-5 col-sm-7">
-            <div class="row card__description">
-              <div class="card__header clearfix">
-                <div class="pull-left">
-                  <div class="card__name">Re-Kånken</div>
-                </div>
-                <div class="pull-right card__price">
-                  <div class="card__today-price">
-                    <span class="middle">2 300</span>
-                    <i class="fa fa-rub middle" aria-hidden="true"></i>
-                  </div>
-                  <div class="card__prev-price">
-                    <span class="middle">2 900</span>
-                    <i class="fa fa-rub middle" aria-hidden="true"></i>
-                  </div>
-                </div>
-              </div>
-              <div class="color">
-                <div class="color__name">Цвет: 041 - Slate</div>
-                <div class="color__list">
-                  <div class="color__item middle" style="background-color: #615e61;"></div>
-                  <div class="color__item middle" style="background-color: red"></div>
-                  <div class="color__item middle" style="background-color: yellow"></div>
-                  <div class="color__item middle" style="background-color: blue"></div>
-                </div>
-              </div>
-              <div class="card__btns">
-                <a href="#" class="middle btn btn-white">В корзину</a>
-                <a href="#" class="middle btn-favorite">
-                  <i class="fa fa-heart-o" aria-hidden="true"></i>
-                  <span class="middle">В избранное</span>
+        <div class="page-title">
+          <h4>Регистрация нового пользователя</h4>
+        </div>
+        <div class="order">
+          <div class="order__line clearfix">
+            <div class="col-md-4">
+              <div class="row order__block">
+                <a href="#" class="back-link">
+                  <i class="fa fa-angle-left middle" aria-hidden="true"></i>
+                  <span class="middle">у меня уже есть аккаунт</span>
                 </a>
               </div>
-              <div class="tabs">
-                 <!-- Nav tabs -->
-                <ul class="nav-tabs" role="tablist">
-                  <li class="active"><a href="#text" role="tab" data-toggle="tab">Описание</a></li>
-                  <li><a href="#delivery" role="tab" data-toggle="tab">Доставка и возврат</a></li>
-                  <li><a href="#size" role="tab" data-toggle="tab">Таблица размеров</a></li>
-                </ul>
-                <!-- Tab panes -->
-                <div class="tab-content">
-                  <div role="tabpanel" class="tab-pane active" id="text">
-                    Придуманный в 1978 году рюкзак Kånken шведской марки Fjällräven (произносится как «фьелрэвен»)  классический пример функционального скандинавского дизайна. Из-за простоты конструкции, вместительности и удобства модель полюбилась шведским школьникам.
+            </div>
+            <div class="col-md-8">
+              <div class="row order__block register-form">
+                <div class="order__title">1. Информация о покупателе</div>
+                <div class="order__line clearfix">
+                  <div class="col-sm-6">
+                    <div class="row order__block">
+                      <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Имя">
+                      </div>
+                    </div>
                   </div>
-                  <div role="tabpanel" class="tab-pane" id="delivery">
-                    Доставка и возврат
+                  <div class="col-sm-6">
+                    <div class="row order__block">
+                      <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Фамилия">
+                      </div>
+                    </div>
                   </div>
-                  <div role="tabpanel" class="tab-pane" id="size">
-                    Таблица размеров
+                  <div class="col-sm-6">
+                    <div class="row order__block">
+                      <div class="form-group">
+                        <input type="text" class="form-control" placeholder="E-mail">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="row order__block">
+                      <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Телефон">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="row order__block">
+                      <div class="form-group">
+                        <input type="password" class="form-control" placeholder="Пароль">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="row order__block">
+                      <div class="form-group">
+                        <input type="password" class="form-control" placeholder="Еще раз новый пароль">
+                      </div>
+                      <div class="form-group">
+                        <input type="checkbox" class="checkbox checkbox--small" id="checkbox3">
+                        <label for="checkbox3">Сообщать мне о скидках и важных новостях по e-mail</label>
+                      </div>
+                      <div class="order__submit">
+                        <a href="#" class="order-link order-link--full">
+                          <span class="middle">
+                            Подтвердить
+                          </span>
+                          <i class="fa fa-angle-right middle"></i>
+                        </a>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -486,7 +500,9 @@
     	</div>
     </footer>
   </div>
-  
+
+
+
 
   <script src="js/vendor.js"></script>
   <script src="js/main.js"></script>
