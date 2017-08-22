@@ -1437,3 +1437,134 @@ img{
 		padding-top: 0;
 	}
 }
+
+.modal-text{
+	margin: 35px 0;
+}
+.modal-footer{
+	padding-top: 45px;
+	border-top: 1px solid rgba(0,0,0,0.1);
+}
+.modal-back{
+	color: #000;
+	font-family: $bold;
+
+	.fa{
+		font-size: 20px;
+		margin-left: 10px;
+	}
+}
+.modal-text{
+	font-family: $sflight;
+	font-size: 18px;
+}
+.form-link{
+	color: #000;
+	text-decoration: underline;
+	font-size: 14px;
+	font-family: $sf;
+	display: inline-block;
+	margin-top: 7px;
+}
+.login-wrapp{
+	padding-bottom: 200px;
+}
+.cabinet{
+	font-family: $sf;
+	font-size: 16px;
+
+	&__menu{
+
+		li{
+			+ li{
+				margin-top: 15px;
+			}
+		}
+		a{
+			font-size: 14px;
+		}
+	}
+
+	&__item{
+		margin-bottom: 70px;
+	}
+
+	&__title{
+		font-size: 18px;
+		margin-bottom: 40px;
+	}
+
+	a{
+		color: #000;
+
+		&:hover{
+			text-decoration: underline;
+		}
+	}
+	&__contacts{
+
+		&__phone{
+			margin-bottom: 10px;
+		}
+		&__name{
+			margin-bottom: 20px;
+		}
+	}
+	&__adress{
+		> div+ div{
+			margin-left: 50px;
+		}
+	}
+}
+.cabinet-link{
+	font-size: 14px;
+	margin-bottom: 15px;
+}
+.link-btn{
+	font-size: 14px;
+}
+.cabinet-order{
+	&__number{
+		text-decoration: underline;
+	}
+	&__item{
+		width: 100%;
+
+		td{
+			border-bottom: 1px solid rgba(0,0,0,0.1);
+
+			&:last-child,
+			&:nth-child(4){
+				text-align: right;
+			}
+		}
+
+		thead{
+			font-size: 12px;
+		  color: #9b9b9b;
+
+		  td{
+		  	vertical-align: middle;
+		  	padding-top: 10px;
+		  	padding-bottom: 10px;
+		  }
+		}
+		tbody{
+			td{
+				font-size: 14px;
+				padding-top: 25px;
+				padding-bottom: 25px;
+			}
+		}
+	}
+}
+.form-label{
+	font-size: 12px;
+	font-family: $sf;
+	color: #9b9b9b;
+	margin-bottom: 5px;
+}
+.data-form{
+	margin-top: 30px;
+	padding-bottom: 100px;
+}

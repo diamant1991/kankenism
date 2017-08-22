@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>User</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/media.css">
+  <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>a
+  <![endif]-->
+</head>
+<body>
+  <div class="wrapper wrapper--inner wrapper--grey">
+    //= template/header.html
+    <div class="content">
+      <div class="container">
+        <div class="page-title">
+          <h4>Мой аккаунт</h4>
+        </div>
+        <div class="cabinet clearfix">
+          <div class="col-md-4">
+            <div class="row">
+              <ul class="cabinet__menu">
+                <li><a href="#">Контактные данные</a></li>
+                <li><a href="#">Адрес</a></li>
+                <li><a href="#">Заказы</a></li>
+                <li><a href="#">Рассылка</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="row">
+              <div class="cabinet__item">
+                <h5 class="cabinet__title">Контактные данные</h5>
+                <div class="cabinet__contacts clearfix">
+                  <div class="col-sm-6">
+                    <div class="row">
+                      <div class="cabinet__contacts__name">Петр Раушенберг</div>
+                      <div class="cabinet__contacts__phone">8 (800) 200-20-20</div>
+                      <div class="cabinet__contacts__email">petya@raush.ru</div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="row cabinet__contacts__links">
+                      <div class="cabinet-link">
+                        <a href="#">Изменить контактные данные</a>
+                      </div>
+                        <a href="#">Изменить пароль</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="cabinet__item">
+                  <h5 class="cabinet__title">Адрес</h5>
+                  <div class="cabinet__adress clearfix">
+                    <div class="middle">125141</div>
+                    <div class="middle">Россия, Москва, ул. Моховая д.1</div>
+                    <div class="middle"><a href="#" class="link-btn">Изменить адрес</a></div>
+                  </div>
+                </div>
+                <div class="cabinet__item">
+                  <h5 class="cabinet__title">Заказы</h5>
+                  <div class="cabinet-order">
+                    <table class="cabinet-order__item">
+                      <thead>
+                        <tr>
+                          <td>№ Заказа</td>
+                          <td>Дата создания</td>
+                          <td>Дата получения</td>
+                          <td>Cумма</td>
+                          <td>Статус</td>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td><a href="#" class="cabinet-order__number">456142</a></td>
+                          <td>21.02.2017</td>
+                          <td>21.02.2017</td>
+                          <td>2 990 <i class="fa fa-rub"></i></td>
+                          <td>Получен</td>
+                        </tr>
+                        <tr>
+                          <td><a href="#" class="cabinet-order__number">456142</a></td>
+                          <td>21.02.2017</td>
+                          <td>21.02.2017</td>
+                          <td>2 990 <i class="fa fa-rub"></i></td>
+                          <td>Получен</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+                <div class="cabinet__item">
+                  <h5 class="cabinet__title">Подписка на новости</h5>
+                  <input type="checkbox" class="checkbox" id="checkbox">
+                  <label for="checkbox">Получать уведомленя о скидках и важных новостях</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      //= template/footer.html
+    </div>
+    
+  
+  
+
+  <script src="js/vendor.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

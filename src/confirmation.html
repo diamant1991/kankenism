@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Confirmation</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/media.css">
+  <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>a
+  <![endif]-->
+</head>
+<body>
+  <div class="wrapper wrapper--inner wrapper--grey">
+    //= template/header.html
+    <div class="content">
+      <div class="container">
+        <a href="#" data-toggle="modal" data-target="#myModal">Спасибо за регистрацию</a>
+      </div>
+    </div>
+    //= template/footer.html
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <h4 class="modal-title">Спасибо за регистрацию</h4>
+          <p class="modal-text">
+            На указанный в форме e-mail придет запрос на подтверждение регистрации.
+          </p>
+          <div class="modal-footer">
+            <a href="#" class="modal-back">
+              <span class="middle">Вернуться к покупкам</span>
+              <i class="fa fa-angle-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="js/vendor.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
