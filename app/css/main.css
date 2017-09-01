@@ -2330,3 +2330,33 @@ img {
 .data-form {
   margin-top: 30px;
   padding-bottom: 100px; }
+
+.product-carousel .owl-prev,
+.product-carousel .owl-next {
+  text-indent: inherit;
+  font-size: 24px;
+  width: auto;
+  height: auto; }
+  .product-carousel .owl-prev.disabled,
+  .product-carousel .owl-next.disabled {
+    display: none; }
+
+.product-carousel .owl-prev {
+  -webkit-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  left: -55px; }
+
+.product-carousel .owl-next {
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  right: -55px; }
+
+.product-carousel .prev-name {
+  font-size: 24px;
+  margin-left: 20px; }
+
+.product-carousel .next-name {
+  font-size: 24px;
+  margin-left: 20px; }

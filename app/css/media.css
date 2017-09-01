@@ -144,6 +144,11 @@
     min-height: 50px; }
   .return__header {
     font-size: 18px; }
+  .product-carousel .prev-name,
+  .product-carousel .next-name,
+  .product-carousel .owl-prev,
+  .product-carousel .owl-next {
+    font-size: 18px; }
   .cart__body table,
   .cart__body tbody,
   .cart__body tr,

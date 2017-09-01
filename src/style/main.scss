@@ -1568,3 +1568,32 @@ img{
 	margin-top: 30px;
 	padding-bottom: 100px;
 }
+.product-carousel{
+	.owl-prev,
+	.owl-next{
+		text-indent: inherit;
+		font-size: 24px;
+		width: auto;
+		height: auto;
+
+		&.disabled{
+			display: none;
+		}
+	}
+	.owl-prev{
+		transform: rotate(-90deg);
+		left: -55px;
+	}
+	.owl-next{
+		transform: rotate(90deg);
+		right: -55px;
+	}
+	.prev-name{
+		font-size: 24px;
+		margin-left: 20px;
+	}
+	.next-name{
+		font-size: 24px;
+		margin-left: 20px;
+	}
+}

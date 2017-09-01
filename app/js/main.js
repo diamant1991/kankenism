@@ -74,6 +74,38 @@ if($('.banner__carousel').length){
     }
   })
 }
+if($('.product-carousel').length){
+  var owl = $('.product-carousel')
+  owl.owlCarousel({
+    loop:true,
+    margin: 0,
+    dots: false,
+    loop: false,
+    onInitialized: carouselInitialized,
+    rewind: false,
+    nav: true,
+    navText: ['<i class="fa fa-chevron-up"></i><div class="prev-name middle"></div>',
+              '<i class="fa fa-chevron-up"></i><div class="next-name middle"></div>'],
+    responsive:{
+      0:{
+          items:1
+      }
+    }
+  })
+  function carouselInitialized(event){
+    var prevNameStart = $('.product-carousel .owl-item.active').before().find('h2').text();
+    var nextNameStart = $('.product-carousel .owl-item.active').next().find('h2').text();
+    $('.product-carousel .prev-name').text(prevNameStart)
+    $('.product-carousel .next-name').text(nextNameStart)
+  }
+  owl.on('changed.owl.carousel',function(property){
+    var current = property.item.index;
+    var prevName = $(property.target).find(".owl-item").eq(current -1).find("h2").text();
+    var nextName = $(property.target).find(".owl-item").eq(current + 1).find("h2").text();
+    $('.product-carousel .prev-name').text(prevName)
+    $('.product-carousel .next-name').text(nextName)
+  });
+}
 
 $('.questions__btn__toggle').click(function(e) {
   e.preventDefault();
