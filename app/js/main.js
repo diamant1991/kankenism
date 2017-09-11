@@ -119,3 +119,16 @@ $('.questions__btn__toggle').click(function(e) {
     $(this).text('Развернуть +')
   }
 });
+
+$('.delivery__btn__link').click(function(e) {
+  e.preventDefault();
+  var qBody = $(this).closest('.delivery__header').next()
+  if(qBody.is(':hidden')){
+    $(this).text('Свернуть -')
+    qBody.slideDown(250)
+  }
+  else{
+    qBody.slideUp(250)
+    $(this).text('Развернуть +')
+  }
+});

@@ -1939,7 +1939,10 @@ img {
   line-height: 48px;
   color: #000;
   font-size: 14px;
-  font-family: "ComfortaaBold"; }
+  font-family: "ComfortaaBold";
+  background: none;
+  cursor: pointer;
+  outline: 0; }
   .order-link--full {
     width: 100%; }
   .order-link i {
@@ -2168,7 +2171,7 @@ img {
     height: 95px; }
   .questions__btn {
     position: absolute;
-    width: 100px;
+    width: 105px;
     height: 100%;
     right: 0;
     text-align: right;
@@ -2360,3 +2363,55 @@ img {
 .product-carousel .next-name {
   font-size: 24px;
   margin-left: 20px; }
+
+.payment-delivery {
+  padding-bottom: 50px; }
+  .payment-delivery h3 {
+    font-size: 26px;
+    color: #000000;
+    font-family: "ComfortaaBold";
+    margin-bottom: 40px; }
+  .payment-delivery h4 {
+    font-size: 18px;
+    font-family: "ComfortaaBold";
+    margin-bottom: 20px; }
+
+.payment {
+  padding-bottom: 60px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 45px; }
+  .payment__item {
+    line-height: 1.5;
+    font-size: 16px;
+    font-family: "RobotoRegular"; }
+  .payment p + p {
+    margin-top: 30px; }
+
+.delivery {
+  font-size: 14px;
+  font-family: "RobotoRegular";
+  line-height: 1.5; }
+  .delivery__title {
+    font-size: 16px;
+    font-family: "ComfortaaBold"; }
+  .delivery__header {
+    padding: 25px 0; }
+  .delivery p + p {
+    margin-top: 20px; }
+  .delivery__content {
+    padding-left: 25%;
+    display: none; }
+  .delivery__info {
+    padding-bottom: 40px;
+    padding-top: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15); }
+    .delivery__info__title {
+      font-size: 16px; }
+    .delivery__info:last-child {
+      border-bottom: 0; }
+  .delivery__btn {
+    text-align: right; }
+    .delivery__btn a {
+      color: #000; }
+  .delivery__item {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15); }

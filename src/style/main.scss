@@ -1060,6 +1060,9 @@ img{
 	color: #000;
 	font-size: 14px;
 	font-family: $bold;
+	background: none;
+	cursor: pointer;
+	outline: 0;
 
 	&--full{
 		width: 100%;
@@ -1336,7 +1339,7 @@ img{
 	}
 	&__btn{
 		position: absolute;
-		width: 100px;
+		width: 105px;
 		height: 100%;
 		right: 0;
 		text-align: right;
@@ -1595,5 +1598,81 @@ img{
 	.next-name{
 		font-size: 24px;
 		margin-left: 20px;
+	}
+}
+.payment-delivery{
+	padding-bottom: 50px;
+
+	h3{
+		font-size: 26px;
+	  color: #000000;
+	  font-family: $bold;
+	  margin-bottom: 40px;
+	}
+	h4{
+		font-size: 18px;
+		font-family: $bold;
+		margin-bottom: 20px;
+	}
+}
+.payment{
+	padding-bottom: 60px;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+	margin-bottom: 45px;
+
+	&__item{
+		line-height: 1.5;
+		font-size: 16px;
+		font-family: $sf;
+	}
+	p{
+		+ p{
+			margin-top: 30px;
+		}
+	}
+}
+.delivery{
+	font-size: 14px;
+	font-family: $sf;
+	line-height: 1.5;
+
+	&__title{
+		font-size: 16px;
+		font-family: $bold;
+	}
+	&__header{
+		padding: 25px 0;
+	}
+	p{
+		+ p{
+			margin-top: 20px;
+		}
+	}
+	&__content{
+		padding-left: 25%;
+		display: none;
+	}
+	&__info{
+		padding-bottom: 40px;
+		padding-top: 15px;
+		border-bottom: 1px solid rgba(0,0,0,0.15);
+
+		&__title{
+			font-size: 16px;
+		}
+
+		&:last-child{
+			border-bottom: 0;
+		}
+	}
+	&__btn{
+		text-align: right;
+
+		a{
+			color: #000;
+		}
+	}
+	&__item{
+		border-bottom: 1px solid rgba(0,0,0,0.15);
 	}
 }

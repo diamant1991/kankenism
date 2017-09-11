@@ -37,6 +37,12 @@
 	}
 }
 @media(max-width: 991px){
+	.delivery__info__title{
+		margin-bottom: 15px;
+	}
+	.payment__item + .payment__item{
+		margin-top: 30px;
+	}
 	.return{
 		padding-top: 0;
 		padding-bottom: 50px;
@@ -50,6 +56,9 @@
 				margin-bottom: 20px;
 			}
 		}
+	}
+	.payment-delivery h4{
+		margin-bottom: 5px;
 	}
 	.data-form{
 		padding-bottom: 50px;
@@ -206,6 +215,26 @@
 	}
 	.return__header{
 		font-size: 18px;
+	}
+	.delivery__info{
+		padding-top: 0;
+	}
+	.delivery__btn{
+		text-align: left;
+	}
+	.delivery__content{
+		padding-left: 0;
+	}
+	.delivery__header{
+		padding: 15px 0;
+	}
+	.payment{
+		padding-bottom: 20px;
+		margin-bottom: 25px;
+	}
+	.payment-delivery h3{
+		margin-bottom: 20px;
+		font-size: 22px;
 	}
 	.product-carousel .prev-name,
 	.product-carousel .next-name,
