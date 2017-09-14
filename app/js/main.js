@@ -97,6 +97,12 @@ if($('.product-carousel').length){
     var nextNameStart = $('.product-carousel .owl-item.active').next().find('h2').text();
     $('.product-carousel .prev-name').text(prevNameStart)
     $('.product-carousel .next-name').text(nextNameStart)
+    var prevWidth = $('.prev-name').width() / 2
+    var nextWidth = $('.next-name').width() / 2
+    prevWidth = -prevWidth
+    nextWidth = -nextWidth
+    $('.owl-prev').css('left', prevWidth + 'px');
+    $('.owl-next').css('right', nextWidth + 'px');
   }
   owl.on('changed.owl.carousel',function(property){
     var current = property.item.index;
@@ -104,6 +110,12 @@ if($('.product-carousel').length){
     var nextName = $(property.target).find(".owl-item").eq(current + 1).find("h2").text();
     $('.product-carousel .prev-name').text(prevName)
     $('.product-carousel .next-name').text(nextName)
+    var prevWidth = $('.prev-name').width() / 2
+    var nextWidth = $('.next-name').width() / 2
+    prevWidth = -prevWidth
+    nextWidth = -nextWidth
+    $('.owl-prev').css('left', prevWidth + 'px');
+    $('.owl-next').css('right', nextWidth + 'px');
   });
 }
 

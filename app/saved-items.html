@@ -22,7 +22,19 @@
             <div>
               <div class="location middle">
                 <i class="fa fa-map-marker midde" aria-hidden="true"></i>
-                <div class="middle">Ваш регион доставки Москва</div>
+                <div class="middle">
+                  <div class="middle">Ваш регион доставки:</div>  
+                  <div class="middle dropdown">
+                    <a href="#" class="header-link" id="drop-city" data-toggle="dropdown">Москва</a>
+                    <ul class="dropdown-modal" aria-labelledby="drop-city">
+                      <li><a href="#">Санкт Петербург</a></li>
+                      <li><a href="#">Смоленск</a></li>
+                      <li><a href="#">Краснодар</a></li>
+                      <li><a href="#">Воронеж</a></li>
+                      <li><a href="#">Орел</a></li>
+                    </ul>
+                  </div>
+                </div>
               </div>
               <div class="telephone middle">
                 <i class="fa fa-phone middle" aria-hidden="true"></i>
@@ -30,9 +42,16 @@
               </div>
             </div>
             <div>Бесплатная доставка от 100Е</div>
-            <div>
-              Русский
-            </div>
+            <div class="dropdown">
+              <a href="#" class="language" id="language-drop" data-toggle="dropdown">
+                <span class="middle">Русский</span>
+                <i class="fa fa-angle-down middle" aria-hidden="true"></i>
+              </a>
+              <ul class="dropdown-modal" aria-labelledby="language-drop">
+                <li><a href="#">английский</a></li>
+                <li><a href="#">русский</a></li>
+              </ul>
+            </div> 
           </div>
         </div>
       </div>

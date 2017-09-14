@@ -2348,13 +2348,13 @@ img {
   -webkit-transform: rotate(-90deg);
   -ms-transform: rotate(-90deg);
   transform: rotate(-90deg);
-  left: -55px; }
+  left: 10px; }
 
 .product-carousel .owl-next {
   -webkit-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
-  right: -55px; }
+  right: 10px; }
 
 .product-carousel .prev-name {
   font-size: 24px;
@@ -2415,3 +2415,53 @@ img {
       color: #000; }
   .delivery__item {
     border-bottom: 1px solid rgba(0, 0, 0, 0.15); }
+
+.open > .dropdown-modal {
+  display: block; }
+
+.dropdown-modal {
+  position: absolute;
+  top: 25px;
+  left: 50%;
+  margin-left: -90px;
+  z-index: 1000;
+  display: none;
+  width: 180px;
+  font-size: 10px;
+  text-align: left;
+  list-style: none;
+  background-color: #f26066;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  padding: 15px; }
+  .dropdown-modal:before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 10px;
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    margin-left: -10px;
+    top: -10px;
+    background: url(../img/pointer.svg) no-repeat; }
+  .dropdown-modal li a {
+    color: #fff; }
+    .dropdown-modal li a:hover {
+      text-decoration: underline; }
+  .dropdown-modal li + li {
+    margin-top: 10px; }
+
+.dropdown {
+  position: relative; }
+
+.header-link {
+  color: #fff; }
+
+.language {
+  color: #fff; }
+  .language .fa {
+    position: relative;
+    top: -1px;
+    font-size: 12px;
+    margin-left: 3px; }
